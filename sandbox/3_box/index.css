@@ -1,0 +1,84 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Formula1';
+  src: url('assets/fonts/Formula1-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Formula1-Bold';
+  src: url('assets/fonts/Formula1-Bold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Tilium';
+  src: url('assets/fonts/TitilliumWeb-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Tilium-semi';
+  src: url('assets/fonts/TitilliumWeb-SemiBold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: #16161e;
+  /* background: linear-gradient(rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)), url('https://www.wsupercars.com/wallpapers-regular/Formula-1/Red-Bull-Racing/2025-Formula1-Red-Bull-Racing-RB21-010-1080.jpg'); */
+  /* background-blend-mode: darken; */
+
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#title {
+  font-family: 'Formula1-Bold';
+  font-style: italic;
+  color: #e10600;
+
+  /* font-size: 75px; */
+}
+
+#team {
+  font-family: 'Formula1-Bold';
+  color: #007d68;
+}
+
+#bttn {
+  background-color: transparent;
+  border-width: 3px;
+  border-color: white;
+  padding: 3px 14px;
+  border-radius: 10px;
+
+  font-family: 'Tilium';
+  font-size: 23px;
+  color: blanchedalmond;
+}
+
+#s5 {
+  color: white;
+  font-family: 'Formula1-Bold';
+  font-style: italic;
+}
